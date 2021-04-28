@@ -1,0 +1,4 @@
+{
+    "inputs": ["/dev/ttyUSB0"],
+    "output": "/dev/usb/lp1"
+}

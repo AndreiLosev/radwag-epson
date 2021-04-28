@@ -1,0 +1,13 @@
+[package]
+name = "radwag-epson"
+version = "0.1.0"
+authors = ["andrei <losev_andrei@bk.ru>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serial = "0.4.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.0"
+epson = { path = "../epson" }
